@@ -1,25 +1,15 @@
 from flask import Flask, render_template, request
 import random
+import json
 app = Flask(__name__)
 
-# Liste de questions
-questions = [
-    {
-        'question': 'Quelle est la capitale de la France ?',
-        'answer': 'Paris'
-    },
-    {
-        'question': 'Quelle est la capitale de l\'Espagne ?',
-        'answer': 'Madrid'
-    },
-]
+with open('questions.json') as json_file:
+    questions = json.load(json_file)
 
-# Page d'accueil
 @app.route('/')
 def home():
     return render_template('index.html', question=random.choice(questions)['question'])
 
-# Évaluation de la réponse
 @app.route('/evaluate', methods=['POST'])
 def evaluate():
     user_answer = request.form['answer']

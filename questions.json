@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Comment rappeler la commande éxécutée précédemment avec les droits administrateurs ?",
+        "answer": "sudo !!"
+    },
+    {
+        "question": "Comment rappeler la commande précédente ?",
+        "answer": "!!"
+    },
+    {
+        "question": "Comment afficher le dossier courant ?",
+        "answer": "pwd"
+    },
+    {
+        "question": "Comment créer un dossier ?",
+        "answer": "mkdir"
+    },
+    {
+        "question": "Donnez moi la commande qui affiche le contenu d'un fichier",
+        "answer": "cat"
+    },
+    {
+        "question": "Donnez moi la commande pour afficher la liste des dossiers/fichiers du répertoire courant",
+        "answer": "ls"
+    },
+    {
+        "question": "Donnez moi la commande pour afficher la liste des dossiers/fichiers du répertoire courant plus détaillée, comprenant les fichiers cachés",
+        "answer": "ls -all"
+    },
+    {
+        "question": "Commande pour supprimer un fichier",
+        "answer": "rm"
+    },
+    {
+        "question": "Commande pour supprimer un dossier",
+        "answer": "rmdir"
+    },
+    {
+        "question": "Commande pour créer un nouveau terminal",
+        "answer": "tmux"
+    },
+    {
+        "question": "Comment créer un nouveau fichier dans Linux ?",
+        "answer": "touch"
+    },
+    {
+        "question": "Comment copier un fichier dans Linux ?",
+        "answer": "cp"
+    },
+    {
+        "question": "Comment déplacer / renommer un fichier ?",
+        "answer": "mv"
+    },
+    {
+        "question": "Comment changer les permissions d'un fichier ou dossier ?",
+        "answer": "chmod"
+    },
+    {
+        "question": "Comment changer le propriétaire et/ou groupe d’un fichier ou répertoire ?",
+        "answer": "chown"
+    },
+    {
+        "question": "Comment afficher le manuel d'une commande ?",
+        "answer": "man"
+    },
+    {
+        "question": "Comment afficher la liste des utilisateurs ?",
+        "answer": "users"
+    },
+    {
+        "question": "Comment redémarrer le système ?",
+        "answer": "reboot"
+    },
+    {
+        "question": "Comment valider les modifications dans Git ?",
+        "answer": "git commit"
+    },
+    {
+        "question": "Comment afficher l'historique des commits dans Git ?",
+        "answer": "git log"
+    }
+]
